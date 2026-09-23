@@ -127,12 +127,12 @@ Includes:
 ## Dashboard Preview
 
 ### Dashboard 1 – Customer Churn & Retention Overview
+![Dashboard 1](04_Power%20BI/Dashboard%201.png)
 
-![Dashboard 2](04_Power%20BI/Dashboard%202.png)
 
 ### Dashboard 2 – Customer Behavior & Retention Analysis
+![Dashboard 2](04_Power%20BI/Dashboard%202.png)
 
-![Dashboard 1](04_Power%20BI/Dashboard%201.png)
 
 ## Project Structure
 
