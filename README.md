@@ -1,26 +1,22 @@
 # Customer Churn & Retention Analysis
 
-##  Project Overview
+## Project Overview
 
-Customer Churn & Retention Analysis is a data analytics project focused on understanding customer behavior, churn patterns, and retention trends.
+Customer Churn & Retention Analysis is a Data Analytics project focused on understanding customer behavior, identifying churn patterns, and analyzing customer retention.
 
-The project uses SQL, Python, Exploratory Data Analysis (EDA), basic statistics, and Power BI to transform customer data into meaningful business insights.
+The project uses SQL, Python, Exploratory Data Analysis (EDA), Statistics, and Power BI to transform customer data into meaningful business insights.
 
----
+## Objectives
 
-##  Objectives
+- Analyze customer churn and retention patterns
+- Identify customer segments with higher churn
+- Analyze the impact of contract and payment methods
+- Study customer tenure and monthly charges
+- Understand factors associated with customer churn
+- Create interactive Power BI dashboards
+- Generate actionable business insights
 
-- Analyze customer churn and retention patterns.
-- Understand customer behavior and service usage.
-- Analyze churn based on contract and payment methods.
-- Study the relationship between customer tenure and charges.
-- Identify customer segments with different churn patterns.
-- Create interactive dashboards using Power BI.
-- Generate useful business insights from customer data.
-
----
-
-##  Technologies Used
+## Tools & Technologies
 
 - Microsoft Excel
 - MySQL
@@ -34,33 +30,25 @@ The project uses SQL, Python, Exploratory Data Analysis (EDA), basic statistics,
 - Power BI
 - Git & GitHub
 
----
+## Project Workflow
 
-##  Project Workflow
-
-Excel  
-↓  
-Data Cleaning & Understanding  
-↓  
-MySQL & SQL Analysis  
-↓  
-Python Data Analysis  
-↓  
-Exploratory Data Analysis (EDA)  
-↓  
-Statistical Analysis  
-↓  
-Power BI Dashboard  
-↓  
+Excel
+↓
+Data Cleaning
+↓
+MySQL & SQL Analysis
+↓
+Python EDA
+↓
+Statistical Analysis
+↓
+Power BI Dashboard
+↓
 Business Insights
 
----
+## Dataset
 
-##  Dataset
-
-The dataset contains customer-level information related to customer demographics, services, tenure, contract type, payment method, monthly charges, total charges, and churn status.
-
-### Major Attributes
+The dataset contains customer-level information such as:
 
 - Customer ID
 - Gender
@@ -74,61 +62,45 @@ The dataset contains customer-level information related to customer demographics
 - Total Charges
 - Internet Service
 - Online Security
-- Technical Support
-- Streaming Service
+- Tech Support
+- Streaming Services
 - Churn
 
----
+## SQL Analysis
 
-##  Python Analysis
+SQL was used to perform business-oriented analysis such as:
 
-Python was used for data cleaning, exploration, and visualization.
+- Customer count
+- Churned and retained customers
+- Churn rate
+- Churn by contract type
+- Churn by payment method
+- Customer tenure analysis
+- Monthly charge analysis
 
-### Libraries Used
+## Python Analysis
+
+Python was used for:
+
+- Data cleaning
+- Data preprocessing
+- Exploratory Data Analysis
+- Statistical analysis
+- Correlation analysis
+- Data visualization
+
+Libraries used:
 
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 
-### Analysis Performed
+## Power BI Dashboard
 
-- Data cleaning
-- Missing value analysis
-- Customer distribution
-- Churn analysis
-- Tenure analysis
-- Monthly charges analysis
-- Service-wise analysis
-- Contract-wise analysis
-- Correlation analysis
-- Basic statistical analysis
+The Power BI dashboard contains two analytical pages:
 
----
-
-##  SQL Analysis
-
-MySQL and SQL were used for structured customer data analysis.
-
-### SQL Analysis Includes
-
-- Total customers
-- Churned customers
-- Retained customers
-- Churn rate
-- Customer distribution by contract
-- Churn by payment method
-- Churn by internet service
-- Tenure analysis
-- Monthly and total charges analysis
-
----
-
-##  Power BI Dashboard
-
-The project contains two interactive Power BI dashboard pages.
-
-### Dashboard 1 — Customer Churn & Retention Overview
+### Page 1 – Customer Churn & Retention Overview
 
 Includes:
 
@@ -137,13 +109,11 @@ Includes:
 - Retained Customers
 - Churn Rate
 - Retention Rate
-- Customer Churn Distribution
 - Churn by Contract
-- Customer Distribution by Contract
 - Churn by Payment Method
 - Customer Tenure Analysis
 
-### Dashboard 2 — Customer Behavior & Retention Analysis
+### Page 2 – Customer Behavior & Retention Analysis
 
 Includes:
 
@@ -153,44 +123,59 @@ Includes:
 - Churn by Technical Support
 - Churn by Online Security
 - Churn by Payment Method
-- Customer Segment Analysis
 
----
+## Project Structure
 
-## 🔍 Key Insights
+Customer-Churn-Retention-Analysis/
+
+├── 01_Dataset/
+
+├── 02_python/
+
+├── 03_SQL/
+
+├── 04_Power BI/
+
+├── 05_Report/
+
+├── .gitignore
+
+└── README.md
+
+## Key Insights
 
 The analysis helps understand:
 
-- Customer churn patterns across different contract types.
-- Differences in churn behavior based on customer tenure.
-- Relationship between monthly charges and churn.
-- Churn patterns across different payment methods.
-- Impact of service usage on customer retention.
-- Customer segments that may require greater retention attention.
+- Which customer groups have higher churn
+- How contract type is related to churn
+- How payment methods relate to customer retention
+- The relationship between tenure and churn
+- Customer behavior based on service usage
+- Areas where customer retention strategies can be focused
 
----
+## Project Deliverables
 
-##  Project Structure
+- Cleaned Dataset
+- Python Analysis Notebook
+- SQL Analysis Queries
+- Power BI Dashboard
+- Dashboard Screenshots
+- Project Report
 
-```text
-Customer-Churn-Retention-Analysis/
-│
-├── 01_Dataset/
-│   ├── Customer_Churn_Cleaned.csv
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│
-├── 02_python/
-│   └── Customer_Churn_Retention_Analysis.ipynb
-│
-├── 03_SQL/
-│   └── Customer_Churn_SQL_Analysis.sql
-│
-├── 04_Power BI/
-│   ├── Customer_Churn_Retention_Dashboard.pbix
-│   ├── Dashboard_1.png
-│   └── Dashboard_2.png
-│
-├── 05_Report/
-│   └── CCR-Report-Final.pdf
-│
-└── README.md
+## Future Scope
+
+The project can be further extended with:
+
+- Customer churn prediction
+- Machine Learning models
+- Customer segmentation
+- Automated reporting
+- Real-time customer analytics
+
+## Author
+
+**Ankit Jangir**
+
+MCA | Data Analytics Enthusiast
+
+Skills: SQL | Python | Power BI | Excel | Data Analysis
